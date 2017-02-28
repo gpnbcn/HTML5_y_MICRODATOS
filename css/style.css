@@ -1,0 +1,58 @@
+* {
+    /* Reset de los margenes */
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    width: 100%;
+    background-color: #dedcdc;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: #6b6a6a;
+    box-shadow: 1px 5px 20px #888888;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#marco{
+    padding:20px;
+}
+
+section {
+    padding: 10px;
+}
+
+#contenedor {
+    padding:10px; 
+    margin: 20px; 
+    border:solid;
+    border-radius: 10px;
+    background-color: #dedcdc; 
+    font-size: 1.2em;
+    box-shadow: 1px 5px 20px #888888;
+}
+
+#nombre{
+    font-size: 1.5em;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: #6b6a6a;
+    box-shadow: 1px 5px 20px #888888;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px; 
+    align-items: center;
+}

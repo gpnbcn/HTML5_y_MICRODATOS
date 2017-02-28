@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Guillermo Perez Neira">
+    <meta name="description" content="Ejemplo de microdatos">
+    <meta name="keywords" content="HTML5, Microdatos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejemplo de Microdatos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="marco">
+        <header id="cabecera">
+            <h1>Ejemplo de Microdatos</h1>
+        </header>
+
+        <section id="seccion">
+            <article>
+
+                <h2>Datos pesonales:</h2>
+            
+                <div id="contenedor" itemscope itemtype="http://schema.org/Person">
+                
+                    <p id="nombre" itemprop="name">Guillermo Perez Neira</p>
+                    <p itemprop="jobTitle">Desarrollador</p>
+                    <p itemprop="telephone">(+34) 93 555 555</p>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <p itemprop="streetAddress"> Plaça de Catalunya, 16 </p>
+                        <p>
+                            <spam itemprop="postalCode">08002</spam> -
+                            <spam itemprop="addressLocality">Barcelona</spam>
+                        </p>
+                    </div>
+                    <a href="mailto:gpn@gpn.org" itemprop="email">gpn@gpn.org</a>
+                    <br>
+                    <a href="http://perezneira.wordpress.com" itemprop="url">perezneira.wordpress.com</a>
+                
+                </div>
+
+            </article>
+            <article>
+
+
+            </article>
+        </section>
+        <footer id="pie">
+            <div>   
+                GPN-BCN &copy; 2016 - Guillermo Perez Neira
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
